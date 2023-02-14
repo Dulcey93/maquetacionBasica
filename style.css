@@ -4,7 +4,7 @@
     border: 20px solid yellow;
 } */
 
-div{
+/* div{
     background-color: papayawhip;
     position: relative;    
 }
@@ -31,4 +31,26 @@ div{
     right: 0;
     bottom: 0;
     margin: auto;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/Images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    width: 100%;
+}
+.header-info{
+    display: inline-block;
+    margin: 20px;
+}
+.header-tittle{
+    width: auto;
+    text-align: center;
+    padding: auto auto;
+    display: inline-block;
 }
