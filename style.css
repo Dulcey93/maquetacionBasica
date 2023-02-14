@@ -1,0 +1,34 @@
+/* div{
+    background-color: papayawhip;
+    margin: 20px;
+    border: 20px solid yellow;
+} */
+
+div{
+    background-color: papayawhip;
+    position: relative;    
+}
+.box1{
+    background: yellow;
+}
+.box2{
+    background: red;
+}
+.box3{
+    background: blue;
+}
+
+.box1, .box2, .box3{
+    margin: 20px 0;
+    width: 250px;
+    height: 250px;
+}
+.box2{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
