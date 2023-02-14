@@ -35,6 +35,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-image: url(/Images/background.jpg);
@@ -43,14 +44,26 @@ body{
 }
 header{
     width: 100%;
+    padding: 40px;
 }
-.header-info{
+.header-left{
     display: inline-block;
-    margin: 20px;
+}
+.header-right{
+    display: inline-block;
+    
 }
 .header-tittle{
-    width: auto;
-    text-align: center;
-    padding: auto auto;
     display: inline-block;
+}
+section{
+    display: inline-block;
+}
+.card{
+    width: 33%;
+    display: inline-block;
+    background-color: blanchedalmond;
+}
+footer img{
+    
 }
