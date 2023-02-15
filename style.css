@@ -88,46 +88,43 @@ header{
     top: -70px;
     width: 55%;
 }
-.contenedor{
-    width: 1235px;
-    text-align: justify;
-}
 .contenedor img{
     width: 100%;
 }
+.contenedor{
+    width: 77.5rem;
+    text-align: justify;
+    background-color: red;
+}
 
-.card1{
-    position: relative;
-    display: inline-block;
+.card1, .card2, .card3{
     width: 32%;
-    top: -105px;
-    padding: 10px;
-    padding-bottom: 114px;
     background-color: blanchedalmond;
+}
+.card1{
+    display: inline-block;
+    top: 0;
+    left: 0;
+    margin: auto;
 }
 .card2{
-    position: relative;
     display: inline-block;
-    width: 32%;
-    top: 0px;
-    padding: 10px;
-    background-color: blanchedalmond;
+    top: 0;
+    left: 0;
+    margin: auto;
+
 }
 .card3{
-    position: relative;
     display: inline-block;
-    width: 32%;
-    top: -78px;
-    padding: 10px;
-    padding-bottom: 88px;
-    background-color: blanchedalmond;
+    top: 0;
+    left: 0;
+    margin: auto;
 }
+
 #flores{
     margin: 10px;
     width: 100px;
 }
 footer img{
-    position: relative;
-    top: -105px;
     width: 100%;
 }
