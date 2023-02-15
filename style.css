@@ -37,6 +37,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.contenido-newspaper{
+    width: 1200px;
+    margin:auto;
+}
 body{
     background-image: url(/Images/background.jpg);
     background-repeat: no-repeat;
@@ -44,26 +48,87 @@ body{
 }
 header{
     width: 100%;
-    padding: 40px;
+    padding: 10px 0px 5px 20px;
 }
 .header-left{
+    position: relative;
     display: inline-block;
+    text-align: center;
+    width: 20%;
 }
+
 .header-right{
+    position: relative;
     display: inline-block;
-    
+    width: 24%;
+    top: -20px;
+}
+.header-right img{    
+    margin-right: 70px;
+}
+.header-right i{
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+
+    text-align: center;
+}
+.header-right p{  
+    position: relative;
+    display: inline-block;
+    width: 220px;
+    right: 0px;
+    left: 15px;
+    top: 10px;
 }
 .header-tittle{
+    position: relative;
     display: inline-block;
+    text-align: center;
+    top: -70px;
+    width: 55%;
 }
-section{
-    display: inline-block;
+.contenedor{
+    width: 1235px;
+    text-align: justify;
 }
-.card{
-    width: 33%;
+.contenedor img{
+    width: 100%;
+}
+
+.card1{
+    position: relative;
     display: inline-block;
+    width: 32%;
+    top: -105px;
+    padding: 10px;
+    padding-bottom: 114px;
     background-color: blanchedalmond;
 }
+.card2{
+    position: relative;
+    display: inline-block;
+    width: 32%;
+    top: 0px;
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+.card3{
+    position: relative;
+    display: inline-block;
+    width: 32%;
+    top: -78px;
+    padding: 10px;
+    padding-bottom: 88px;
+    background-color: blanchedalmond;
+}
+#flores{
+    margin: 10px;
+    width: 100px;
+    float: left;
+}
 footer img{
-    
+    position: relative;
+    top: -105px;
+    width: 100%;
 }
